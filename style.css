@@ -3,33 +3,48 @@ body{
     margin: 0;
     padding: 0;
     width: 100vh;
-    height: 100vh;
+    height: auto;
+    background-color:#f2eded14;
 
 }
+h1, h2{
+    font-family: 'Lobster', cursive;
+font-family: 'Noto Naskh Arabic', serif;
+font-family: 'Noto Nastaliq Urdu', serif;
+font-family: 'Noto Sans Arabic', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Rowdies', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+p{
+
+}
+#root{
+width:100vw;
+}
 h1{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
-    border: 1px solid white;
     width:100vw;
-    height:100px;
+    height:10vh;
     background: linear-gradient(rgba(248, 247, 247, 0.129),rgba(148, 142, 142, 0.589) );
     border-radius: 10px;
     padding-top: 50px;
+    box-shadow: 5px 10px 8px #888888;
+
 }
 .container{
-    margin-top: 100px;
-    margin-right: 20px;
+    /* margin-right: 10px; */
     display: flex;
     justify-content: space-evenly;
-    gap: 50px;
+    gap: 5px;
     align-content: center;
 }
 .rightSide, .leftSide,.center{
-    width:600px;
-    height: auto;
+    width:800px;
+    height: 65vh;
     border-radius: 10px;
-    border: 1px solid white;
-    padding: 20px;
+    padding: 50px;
     background: linear-gradient(rgba(248, 247, 247, 0.129),rgba(148, 142, 142, 0.589) );
     box-shadow: 5px 10px 8px #888888;
 

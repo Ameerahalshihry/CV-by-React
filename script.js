@@ -41,7 +41,7 @@ const element = <>
         <h2>التواصل</h2>
         <p>0546904442</p>
         <p>amerahalshihry@gmail.com</p>
-        <a>https://github.com/Ameerahalshihry</a>
+        <a href="https://github.com/Ameerahalshihry">GitHub</a>
         <h2>المهارات</h2>
         <ul>
             <li>HTML</li>
